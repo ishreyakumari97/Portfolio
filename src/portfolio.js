@@ -17,7 +17,7 @@ const greeting = {
     "SDET with 5+ years of experience owning automation and quality for distributed, microservice-based systems across UI, API, and data layers. Expertise in Playwright, Selenium, Appium, PyTest, and CI/CD with a strong focus on reliability and system-level validation. Proven track record of reducing regression cycles by 60%, improving defect detection by 40%, and strengthening release stability in high-scale environments."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1a2w49h0bj8su5xjeGoR4A5MYOGJG92Ym/view?usp=sharing",
+    "https://drive.google.com/file/d/1SJNV5VyqhdlnLMqtapaG0bRa0_zx1Pfl/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -134,10 +134,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "Jenkins",
-      fontAwesomeClassname: "fab fa-jenkins"
-    },
-    {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
@@ -177,7 +173,7 @@ const educationInfo = {
     {
       schoolName: "California State University - East Bay",
       logo: require("./assets/images/east_bay.png"),
-      subHeader: "M.S. Computer Science (GPA: 3.57)",
+      subHeader: "M.S. Computer Science (GPA: 3.62)",
       duration: "Aug 2024 - May 2026",
       location: "",
       desc: "",
@@ -205,7 +201,7 @@ const workExperiences = {
       company: "Quneu",
       companylogo: require("./assets/images/quneu_logo.png"),
       companyUrl: "https://www.quneu.com/",
-      date: "Jan 2026 - Present",
+      date: "Jan 2026 - May 2026",
       location: "",
       descBullets: [
         "Architected a distributed PyTest framework with parallel execution and service isolation across 10+ microservices, cutting regression time by 45% and eliminating environment-related flakiness.",
@@ -248,7 +244,8 @@ const workExperiences = {
       location: "",
       descBullets: [
         "Engineered Selenium (Python) and Appium frameworks using Page Object Model, scaling automation coverage to 80%+ across web and mobile platforms from near-zero baseline.",
-        "Accelerated integration defect detection by building REST API test suites with REST Assured, shifting validation left and reducing QA cycle time by 25%."
+        "Accelerated integration defect detection by building REST API test suites with REST Assured, shifting validation left and reducing QA cycle time by 25%.",
+        "Strengthened release readiness by integrating automated regression into CI workflows and standardizing test data setup across environments, improving sprint-level execution visibility for cross-functional teams."
       ]
     }
   ]
@@ -273,14 +270,18 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/cloud-mover.webp"),
-      projectName: "CloudMover",
+      image: require("./assets/images/career-mentor.png"),
+      projectName: "Career Mentor",
       projectDesc:
-        "Backend validation workflows for cloud data migration covering authentication, integration testing, and data integrity checks across distributed systems.",
+        "Built a career decision-support platform that provides personalized career recommendations based on user profiles, career preferences, and labor market insights. Enhanced user engagement through structured onboarding, interactive dashboards, and data-driven career planning tools.",
       footerLink: [
         {
           name: "GitHub",
-          url: "https://github.com/ishreyakumari/CloudMover"
+          url: "https://github.com/ishreyakumari97/Capstone-backend"
+        },
+        {
+          name: "Demo",
+          url: "https://csueb.zoom.us/rec/play/WkN4BbY8xsBwmuazIyAmBukV2DW0qqcq3Baflc3o664G7I8xi1MuwoQdN-kECzcvJDHdKY1oYhtyxVRd.gAfvGRvULiY3wQQv?accessLevel=meeting&canPlayFromShare=true&from=my_recording&continueMode=true&oldStyle=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fcsueb.zoom.us%2Frec%2Fshare%2FKa2aVA_bOuMBdPaZC0-yagrLniRkXqNrD_B3lhl5stfrYxzNlWxmR13a-lRgm_MQ.TDXJLlu_xdyHvbPr%2520%2520Passcode%3A%2520exC9Rz%26B"
         }
       ]
     }
@@ -304,7 +305,7 @@ const resumeSection = {
   title: "",
   subtitle: "",
   resumeLink:
-    "https://drive.google.com/file/d/1a2w49h0bj8su5xjeGoR4A5MYOGJG92Ym/view?usp=sharing",
+    "https://drive.google.com/file/d/1SJNV5VyqhdlnLMqtapaG0bRa0_zx1Pfl/view?usp=sharing",
   display: false
 };
 
